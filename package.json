@@ -1,0 +1,27 @@
+{
+  "name": "express-demo",
+  "version": "0.1.0",
+  "description": "Wombats are fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape 'routes-tests.js'",
+    "start": "node index.js",
+    "debug": "node-inspector & nodemon --debug-brk index.js"
+  },
+  "keywords": [
+    "wombats",
+    "express",
+    "arrdvarks"
+  ],
+  "author": "premJustinSach",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "node-inspector": "^0.12.8",
+    "nodemon": "^1.9.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
